@@ -1,0 +1,197 @@
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #ffffff, #f3f3f3);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #444;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+  }
+  
+  .form-check-input {
+    margin-right: 12px;
+  }
+  
+  .form-check-label {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #0056b3, #003a75);
+  }
+  
+  .form-text {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  @media (max-width: 600px) {
+    form {
+      padding: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
+  .container_01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .small-div {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #007bff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .small-div:hover {
+    color: #0056b3;
+  }
+
+  
+  /* Comp.css */
+
+/* Basic styling for the navbar */
+header {
+    background-color: #f8fafc; /* Slate background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 10px 0; /* Add vertical padding */
+  }
+  
+  /* Centering the content inside the navbar */
+  .flex {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center it horizontally */
+    padding: 0 20px; /* Horizontal padding */
+  }
+  
+  /* Styling for the logo */
+  .heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sp {
+    color: #1f2937; /* Darker slate color */
+  }
+  
+  .sp1 {
+    color: #3b82f6; /* Blue color for "Property" */
+  }
+  
+  /* Styling for the search form */
+  .forminput {
+    display: flex;
+    align-items: center;
+    background-color: #e5e7eb; /* Light grey background */
+    padding: 5px 10px;
+    border-radius: 30px; /* Rounded edges */
+  }
+  
+  .input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: #333;
+    border-radius: 30px;
+    width: 200px;
+  }
+  
+  .text-slate-600 {
+    font-size: 1.2rem;
+    color: #4b5563; /* Slate text color */
+    margin-left: -30px;
+  }
+  
+  /* Navbar links list */
+  .list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .li:hover {
+    color: #3b82f6; /* Blue color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .flex {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .input {
+      width: 100%; 
+    }
+  
+    .list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  .heading{
+    margin-right: 10px;
+  }
